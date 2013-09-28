@@ -28,7 +28,6 @@ SKIP: {
 
     my $expect = join('',(<DATA>));
     like $err, qr/$expect/, 'setup step';
-    warn $err;
 }
 
 undef($guard);

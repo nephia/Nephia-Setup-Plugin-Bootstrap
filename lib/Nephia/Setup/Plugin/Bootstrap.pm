@@ -43,7 +43,7 @@ __END__
 
 =head1 NAME
 
-Nephia::Setup::Plugin::Bootstrap - Template for Nephia
+Nephia::Setup::Plugin::Bootstrap - Deploy Twitter Bootstrap and jQuery into your webapp
 
 =head1 SYNOPSIS
 
