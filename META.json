@@ -42,15 +42,31 @@
       },
       "runtime" : {
          "requires" : {
+            "Nephia" : "0",
             "perl" : "5.008005"
          }
       },
       "test" : {
          "requires" : {
+            "Capture::Tiny" : "0",
+            "Cwd" : "0",
+            "File::Temp" : "0",
+            "Guard" : "0",
             "Test::More" : "0.98"
          }
       }
    },
    "release_status" : "unstable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/nephia/Nephia-Setup-Plugin-Bootstrap/issues"
+      },
+      "homepage" : "https://github.com/nephia/Nephia-Setup-Plugin-Bootstrap",
+      "repository" : {
+         "type" : "git",
+         "url" : "git://github.com/nephia/Nephia-Setup-Plugin-Bootstrap.git",
+         "web" : "https://github.com/nephia/Nephia-Setup-Plugin-Bootstrap"
+      }
+   },
    "version" : "0.01"
 }

@@ -3,8 +3,8 @@ use warnings;
 use Nephia::Setup;
 use Test::More;
 use Capture::Tiny 'capture';
-use File::Temp 'tempdir';
 use Cwd;
+use File::Temp 'tempdir';
 use Guard;
 
 my $pwd = getcwd;
